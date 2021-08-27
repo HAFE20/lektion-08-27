@@ -8,6 +8,17 @@ const PORT = 8000;
 //Detta kan vi använda istället för att skicka filer som vi gjort nedan
 app.use(express.static('frontend'));
 
+const insults = [
+  {
+    insult: "Never hung poison on a fouler toad",
+    play: "Rickard III"
+  },
+  {
+    insult: "He thinks too much: such men are dangerous. ",
+    play: "Julius Ceasar"
+  }
+];
+
 //get är vald HTTP - metod (går också att skriva post, put och delete)
 //Strängen är url:en
 //Det sista är funktionen som tar två parametrar och där svaret till klienten skickas
@@ -28,8 +39,16 @@ app.use(express.static('frontend'));
 //   response.sendFile(__dirname + '/frontend/index.js');
 // });
 
-app.post('/test', (request, response) => {
-  response.send('On test page');
+app.get('/api/insult', (request, response) => {
+  const index = Math.floor(Math.random() * 2);
+  const insult = insults[index];
+
+  //Vi kan bara skicka strängar mellan en klient och en server så därför måste vi köra JSON.stringify()
+  //på vårt objekt.
+  response.send(JSON.stringify(insult));
+
+  //Går också att använda nedan och då skickar Express det automatiskt som ovan 
+  //response.json(insult);
 });
 
 app.listen(PORT, () => {
