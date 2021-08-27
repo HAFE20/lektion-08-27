@@ -14,6 +14,8 @@ Parametrar i GET/POST: https://www.digitalocean.com/community/tutorials/use-expr
 
 Express tutorial: https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm
 
+Node + Express med Typescript: https://blog.logrocket.com/typescript-with-node-js-and-express/
+
 ## Videor
 
 Introduktion till express: https://www.youtube.com/watch?v=9TSBKO59u0Y&list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp&index=24
