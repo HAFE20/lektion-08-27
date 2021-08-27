@@ -27,3 +27,5 @@ Async Javascript (Callbacks, Promises, Async/Await): https://www.youtube.com/wat
 ## Inspelningar
 
 Inspelning förmiddag: https://handelsakademinse.sharepoint.com/sites/FED20GB/Delade%20dokument/08%20dynamsik%20webbutveckling/Recordings/M%C3%B6te%20i%20_08%20Dynamisk%20webbutveckling_-20210827_091011-M%C3%B6tesinspelning.mp4?web=1
+
+Inspelning eftermiddag: https://handelsakademinse.sharepoint.com/sites/FED20GB/Delade%20dokument/08%20dynamsik%20webbutveckling/Recordings/M%C3%B6te%20i%20_08%20Dynamisk%20webbutveckling_-20210827_130310-M%C3%B6tesinspelning.mp4?web=1
